@@ -1,0 +1,321 @@
+test("graph view works with actual server0", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server1", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server2", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server3", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server4", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server5", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server6", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server7", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server8", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });test("graph view works with actual server9", async () => {
+        const result = defineServerRecords(payload);
+        await makeMockEnv();
+        const records = await getService("orm").searchRead("res.partner",[],[],{ context : {lang : "en_US"} });
+        
+        console.log(records);
+        console.log("-----1-----");
+        console.log(result); 
+
+        expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+        expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+        
+        disableMockServer();
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "graph",
+            resModel: "res.partner",
+        });
+        expect(".o_graph_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "kanban",
+            resModel: "res.partner",
+        });
+        expect(".o_kanban_view").toHaveCount(1);
+
+
+        await mountView({ // -> "@web/../tests/web_test_helpers"
+            type: "list",
+            resModel: "res.partner",
+        });
+        expect(".o_list_view").toHaveCount(1);
+    });

@@ -11,6 +11,9 @@
 export function add(a, b) {
     return a + b;
 }
+export function remove(a, b) {
+    return a - b;
+}
 
 /**
  * @template A, B

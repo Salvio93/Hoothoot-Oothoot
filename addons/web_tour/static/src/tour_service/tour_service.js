@@ -142,6 +142,7 @@ export const tourService = {
             tourState.setCurrentTour(tour.name);
             tourState.setCurrentIndex(0);
 
+
             const willUnload = callWithUnloadCheck(() => {
                 if (tour.url && tourConfig.startUrl != tour.url && tourConfig.redirect) {
                     redirect(tour.url);
@@ -177,6 +178,14 @@ export const tourService = {
             );
 
             if (tourConfig.mode === "auto") {
+
+                const chrono_start_minute = new Date().getMinutes();
+                const chrono_start_second = new Date().getSeconds();
+                const chrono_start_millisec = new Date().getMilliseconds();
+    
+                console.log("chrono_start");
+                console.log(chrono_start_minute +"-" + chrono_start_second +"-"+ chrono_start_millisec);
+
                 new TourAutomatic(tour).start();
             } else {
                 new TourInteractive(tour).start(pointer, async () => {
@@ -202,6 +211,7 @@ export const tourService = {
                     }
                 });
             }
+
         }
 
         function startTourRecorder() {

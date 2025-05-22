@@ -1,4 +1,12 @@
-import { before, createJobScopedGetter, expect, getCurrent, registerDebugInfo } from "@odoo/hoot";
+import {
+    before,
+    after,
+    createJobScopedGetter,
+    expect,
+    getCurrent,
+    globals,
+    registerDebugInfo,
+} from "@odoo/hoot";
 import { mockFetch, mockWebSocket } from "@odoo/hoot-mock";
 import { RPCError } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
@@ -405,8 +413,10 @@ export class MockServer {
             pure: true,
         });
 
-        mockFetch((input, init) => this._handle(input, init));
-        mockWebSocket((ws) => this.websockets.push(ws));
+        if (allowMockServer) {
+            mockFetch(this._handle.bind(this));
+            mockWebSocket((ws) => this.websockets.push(ws));
+        }
     }
 
     /**
@@ -473,6 +483,10 @@ export class MockServer {
     }
 
     async start() {
+        if (!allowMockServer) {
+            disableMockServer();
+            return;
+        }
         if (this.started) {
             throw new MockServerError("MockServer has already been started");
         }
@@ -1298,6 +1312,10 @@ export function logout() {
  * Shortcut function to create and start a {@link MockServer}.
  */
 export async function makeMockServer() {
+    if (!allowMockServer) {
+        disableMockServer();
+        return;
+    }
     const mockServer = getCurrentMockServer();
 
     // Add routes from "mock_rpc" registry
@@ -1389,4 +1407,54 @@ export async function withUser(userId, fn) {
         }
     }
     return result;
+}
+
+
+let allowMockServer = true;
+
+export function disableMockServerOnce() {
+    allowMockServer = false;
+    mockFetch(globals.fetch);
+
+    return () => {
+        allowMockServer = true;
+    };
+}
+export function disableMockServer() {
+    allowMockServer = false;
+    mockFetch(globals.fetch);
+    /*registerDefaultView = (modelName, viewId, viewType, arch) => {
+    if (!MockServer.current){
+        return;
+    } */
+}
+
+
+// MOCK SERVER.JS
+export async function defineServerRecords(data) {
+    disableMockServer();
+
+    after(() => {
+        allowMockServer = true;
+    });
+
+    const response = await fetch("/magic", {
+        method: "POST",
+        headers: {
+            Accept: "application/json",
+
+            "Content-Type": "application/json",
+        },
+
+        context: {
+            lang: "en_US",
+        },
+        body: JSON.stringify(data),
+    })
+    //.then((response) => console.log(response.json())); //ça c'est ok
+    const result = await response.json(); 
+    console.log(result); 
+
+
+    return result; 
 }

@@ -56,7 +56,7 @@ const SERVER_STATE_VALUES = {
     db: "test",
     debug: "",
     groupId: 11,
-    lang: "en",
+    lang: "en_US",
     multiLang: false,
     odoobotId: 418,
     odoobotUid: 518,

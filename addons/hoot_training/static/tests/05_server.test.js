@@ -6,8 +6,8 @@ import {
     makeMockEnv,
     mountWithCleanup,
     patchWithCleanup,
+    onRpc,
 } from "@web/../tests/web_test_helpers";
-
 import { ServerCalculator } from "../src/server_calculator";
 
 function mockAdd(...values) {
@@ -22,40 +22,41 @@ function mockMultiply(...values) {
  * @hint `onRpc()` ("@web/../tests/web_test_helpers")
  * @hint `expect().resolves.toBe()`
  */
-test.todo("test ORM service", async () => {
+test("test ORM service", async () => {
     await makeMockEnv();
     const orm = getService("orm");
 
-    await expect(orm.call("ir.calculator", "multiply", [1, 2, 3, 4])).toBe(1 * 2 * 3 * 4);
+    onRpc("multiply", ({ args }) => mockMultiply(...args));   //onRpc("multiply", callback) intercepts any RPC request for the method "multiply".
+
+    await expect(orm.call("ir.calculator", "multiply", [1, 2, 3, 4])).resolves.toBe(1 * 2 * 3 * 4);
 });
 
 /**
  * @hint `onRpc()` can handle both ORM calls and generic routes
  */
-test.todo("server calculator can add and multiply", async () => {
+test("server calculator can add and multiply", async () => {
     await mountWithCleanup(ServerCalculator);
 
-    // !FIXME: doesn't work with multiply
-    patchWithCleanup(window, {
-        fetch: (url, params) => {
-            const args = JSON.parse(params?.body || "[]");
-            let result;
-            if (url.endsWith("/calculator/add")) {
-                result = mockAdd(args);
-            } else {
-                result = mockMultiply(args);
-            }
-            return new Response(JSON.stringify({ result }), {
-                headers: { "Content-Type": "application/json" },
-            });
-        },
+    onRpc("/calculator/add", async (request) => {
+        const args = await request.json();
+        return mockAdd(...args);
     });
 
+    onRpc("multiply", ({ args }) => {
+        return mockMultiply(...args);
+    });
     click("input:first");
+    await animationFrame();
+
     edit(10);
+    await animationFrame();
 
     click("input:last");
+    await animationFrame();
+
     edit(5);
+    await animationFrame();
+
 
     click("button:contains(+)");
     await animationFrame();

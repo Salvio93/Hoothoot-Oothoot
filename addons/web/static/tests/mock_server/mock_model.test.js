@@ -6,6 +6,7 @@ import {
     getService,
     makeMockEnv,
     makeMockServer,
+    mountView,
     models,
 } from "@web/../tests/web_test_helpers";
 
@@ -54,6 +55,59 @@ test("model should be defined on the mock server", async () => {
         },
     ]);
 });
+
+import { defineServerRecords, disableMockServer } from "@web/../tests/_framework/mock_server/mock_server";
+const data = {
+    ["res.partner"]: 
+        {
+            name: "coucou",
+        },
+    
+};
+const data2 = {
+    ["res.partner"]: 
+        {
+            name: "ça va",
+        },
+    
+};
+
+let payload = {
+    'jsonrpc': '2.0',
+    'method': 'call',
+    'params': {data,data2},
+};
+
+test("graph views works with actual server", async () => {
+    defineServerRecords(payload);
+    await makeMockEnv();
+    const records = await getService("orm").searchRead("res.partner",[],[],{ 
+        context: { lang: "en_US" },
+    });
+
+    expect(records.filter(x => x.name === "coucou")[0].name).toBe("coucou");
+    expect(records.filter(x => x.name === "ça va")[0].name).toBe("ça va");
+
+    disableMockServer();
+    await mountView({
+        type: "graph",
+        resModel: "res.partner",
+    });
+    expect(".o_graph_view").toHaveCount(1);
+
+    await mountView({ 
+        type: "kanban",
+        resModel: "res.partner",
+    });
+    expect(".o_kanban_view").toHaveCount(1);
+
+    await mountView({
+        type: "list",
+        resModel: "res.partner",
+    });
+    expect(".o_list_view").toHaveCount(1);
+});
+
 
 describe("level 1", () => {
     Oui._fields.age = fields.Integer();

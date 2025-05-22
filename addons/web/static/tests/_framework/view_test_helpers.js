@@ -46,7 +46,10 @@ import { MockServer } from "./mock_server/mock_server";
  * @param {ViewType} viewType
  * @param {string} arch
  */
-const registerDefaultView = (modelName, viewId, viewType, arch) => {
+const registerDefaultView = async (modelName, viewId, viewType, arch) => {
+    if (!MockServer.current){
+        return;
+    }
     const model = MockServer.env[modelName];
     const key = model._getViewKey(viewType, viewId);
     model._views[key] ||= arch || `<${viewType} />`;

@@ -1,18 +1,18 @@
 import { expect, test } from "@odoo/hoot";
 import { animationFrame } from "@odoo/hoot-mock";
 import { mountWithCleanup } from "@web/../tests/web_test_helpers";
-
+import { click, press, edit } from "@odoo/hoot-dom";
 import { Counter } from "../src/counter";
 
 /**
  * @hint `click()` ("@odoo/hoot-dom")
  */
-test.todo("counter is incremented on clicks", async () => {
+test("counter is incremented on clicks", async () => {
     await mountWithCleanup(Counter);
 
     expect("input").toHaveValue("0");
 
-    document.querySelector("button").click();
+    click("button");
     await animationFrame();
 
     expect("input").toHaveValue("1");
@@ -21,15 +21,14 @@ test.todo("counter is incremented on clicks", async () => {
 /**
  * @hint `press()` ("@odoo/hoot-dom")
  */
-test.todo("counter is incremented on 'Enter' presses", async () => {
+test("counter is incremented on 'Enter' presses", async () => {
     await mountWithCleanup(Counter);
-
     expect("input").toHaveValue("0");
-
-    document.querySelector("button").dispatchEvent(new KeyboardEvent("keydown", { key: "Tab" }));
-    document.querySelector("button").dispatchEvent(new KeyboardEvent("keydown", { key: "Enter" }));
+    press("tab");
     await animationFrame();
 
+    press("enter");
+    await animationFrame();
     expect("input").toHaveValue("1");
 });
 
@@ -38,19 +37,17 @@ test.todo("counter is incremented on 'Enter' presses", async () => {
  * @hint `click()` and `edit()` ("@odoo/hoot-dom")
  * @hint `expect().toHaveValue()`
  */
-test.todo("counter is incremented on 'Enter' presses", async () => {
+test("counter works with addition of input", async () => {
     await mountWithCleanup(Counter);
 
     expect("input").toHaveValue("0");
+    await click("input");
 
-    document.querySelector("input").value = "17";
-    document.querySelector("input").dispatchEvent(new InputEvent("input"));
-    document.querySelector("input").dispatchEvent(new Event("change"));
-    await animationFrame();
+    await edit(17);
 
     expect("input").toHaveValue("17");
 
-    document.querySelector("button").click();
+    click("button");
     await animationFrame();
 
     expect("input").toHaveValue("18");

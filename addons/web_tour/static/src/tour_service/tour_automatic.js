@@ -101,6 +101,14 @@ export class TourAutomatic {
                 },
                 true
             );
+
+
+            const chrono_end_minute = new Date().getMinutes();
+            const chrono_end_second = new Date().getSeconds();
+            const chrono_end_millisec = new Date().getMilliseconds();
+
+            console.log("chrono_end");
+            console.log(chrono_end_minute +"-" + chrono_end_second +"-"+ chrono_end_millisec);
         };
 
         this.macro = new Macro({
