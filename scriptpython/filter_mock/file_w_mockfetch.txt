@@ -1,0 +1,59 @@
+./addons/web/static/tests/web_test_helpers.js:import { mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/web_test_helpers.js:        mockFetch(globalCachedFetch);
+./addons/web/static/tests/web_test_helpers.js:        mockFetch(null);
+./addons/web/static/tests/_framework/mock_server/mock_server.js:import { mockFetch, mockWebSocket } from "@odoo/hoot-mock";
+./addons/web/static/tests/_framework/mock_server/mock_server.js:        mockFetch((input, init) => this._handle(input, init));
+./addons/web/static/tests/core/utils/assets.test.js:import { mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/core/utils/assets.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/utils/assets.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/utils/assets.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/utils/assets.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/install_scoped_app.test.js:import { animationFrame, mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/core/install_scoped_app.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/install_scoped_app.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/pwa_service.test.js:import { mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/core/pwa_service.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/pwa_service.test.js:    mockFetch((route) => {
+./addons/web/static/tests/core/network/rpc.test.js:import { mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch((_, { body }) => {
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch(() => ({
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch((route, { body }) => ({
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch(() => ({ result: {} }));
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch(() => ({
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch(() => new Promise(() => {}));
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch(() => new Response("<h...", { status: 500 }));
+./addons/web/static/tests/core/network/rpc.test.js:    mockFetch((url, settings) => {
+./addons/web/static/tests/core/network/http_service.test.js:import { mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/core/network/http_service.test.js:    mockFetch((_, { method }) => expect.step(method));
+./addons/web/static/tests/core/network/http_service.test.js:    mockFetch(() => new Response("{}", { status: 502 }));
+./addons/web/static/tests/core/network/http_service.test.js:    mockFetch((_, { body }) => {
+./addons/web/static/tests/core/network/http_service.test.js:    mockFetch((_, { body }) => expect(body).toBe(formData));
+./addons/web/static/tests/core/network/download.test.js:import { Deferred, mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/tests/core/network/download.test.js:    mockFetch(() => new Response("", { status: 502 }));
+./addons/web/static/tests/core/network/download.test.js:    mockFetch(() => Promise.reject());
+./addons/web/static/tests/core/network/download.test.js:    mockFetch(() => new Blob([JSON.stringify(serverError)], { type: "text/html" }));
+./addons/web/static/tests/core/network/download.test.js:    mockFetch(() => new Blob([JSON.stringify(serverError)], { type: "text/html" }));
+./addons/web/static/tests/core/network/download.test.js:    mockFetch((_, { body }) => {
+./addons/web/static/tests/webclient/actions/error_handling.test.js:import { animationFrame, mockFetch, runAllTimers } from "@odoo/hoot-mock";
+./addons/web/static/tests/webclient/actions/error_handling.test.js:    mockFetch((input) => {
+./addons/web/static/tests/webclient/actions/error_handling.test.js:        "/web/dataset/call_kw/partner/web_read", // from mockFetch
+./addons/web/static/tests/webclient/actions/error_handling.test.js:        "/web/dataset/call_kw/partner/web_search_read", // from mockFetch
+./addons/web/static/tests/webclient/actions/error_handling.test.js:    mockFetch((input) => {
+./addons/web/static/tests/webclient/actions/error_handling.test.js:        "/web/dataset/call_kw/partner/web_search_read", // from mockFetch
+./addons/web/static/lib/hoot-dom/helpers/events.js: * This allows the `mockFetch` helper to take control over submit requests.
+./addons/web/static/lib/hoot/mock/network.js:let mockFetchFn = null;
+./addons/web/static/lib/hoot/mock/network.js:    mockFetchFn = null;
+./addons/web/static/lib/hoot/mock/network.js:    if (!mockFetchFn) {
+./addons/web/static/lib/hoot/mock/network.js:        result = await mockFetchFn(input, init);
+./addons/web/static/lib/hoot/mock/network.js: * @param {typeof mockFetchFn} [fetchFn]
+./addons/web/static/lib/hoot/mock/network.js: *  mockFetch((input, init) => {
+./addons/web/static/lib/hoot/mock/network.js: *  mockFetch((input, init) => {
+./addons/web/static/lib/hoot/mock/network.js:export function mockFetch(fetchFn) {
+./addons/web/static/lib/hoot/mock/network.js:    mockFetchFn = fetchFn;
+./addons/web/static/lib/hoot/mock/network.js: *  - websocket connections will be handled by `window.fetch` (see {@link mockFetch});
+./addons/web/static/lib/hoot/mock/network.js: *  (see {@link mockFetch});
+./addons/web/static/lib/hoot/tests/mock/network.test.js:import { mockFetch } from "@odoo/hoot-mock";
+./addons/web/static/lib/hoot/tests/mock/network.test.js:        mockFetch(expect.step);
+./addons/web/static/lib/hoot/tests/hoot-dom/events.test.js:import { advanceTime, animationFrame, mockFetch, mockTouch, mockUserAgent } from "@odoo/hoot-mock";
+./addons/web/static/lib/hoot/tests/hoot-dom/events.test.js:        mockFetch((url, { body, method }) => {
+./addons/web/static/lib/hoot/hoot-mock.js:export { mockFetch, mockLocation, mockWebSocket, mockWorker } from "./mock/network";

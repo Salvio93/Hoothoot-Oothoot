@@ -1,0 +1,379 @@
+./addons/web/static/tests/mock_server/mock_server.test.js:    makeMockServer,
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_server.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_model.test.js:    makeMockEnv,
+./addons/web/static/tests/mock_server/mock_model.test.js:    makeMockServer,
+./addons/web/static/tests/mock_server/mock_model.test.js:    await makeMockServer();
+./addons/web/static/tests/mock_server/mock_model.test.js:    await makeMockEnv();
+./addons/web/static/tests/mock_server/mock_model.test.js:        await makeMockEnv();
+./addons/web/static/tests/mock_server/mock_model.test.js:        await makeMockEnv();
+./addons/web/static/tests/mock_server/mock_model.test.js:            await makeMockEnv();
+./addons/web/static/tests/public/interaction_service.test.js:import { makeMockEnv } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/public/interaction_service.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/public/helpers.js:import { clearRegistry, makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/public/helpers.js:    const env = await makeMockEnv();
+./addons/web/static/tests/legacy/setup.js:function makeMockLocation() {
+./addons/web/static/tests/legacy/setup.js:    const mockLocation = makeMockLocation();
+./addons/web/static/tests/legacy/helpers/mock_server.js:import { patchRPCWithCleanup, makeMockFetch } from "./mock_services";
+./addons/web/static/tests/legacy/helpers/mock_server.js:export async function makeMockServer(serverData, mockRPC) {
+./addons/web/static/tests/legacy/helpers/mock_server.js:        fetch: makeMockFetch(_mockRPC),
+./addons/web/static/tests/legacy/helpers/mock_services.js:export function makeMockXHR(response, sendCb, def) {
+./addons/web/static/tests/legacy/helpers/mock_services.js:export function makeMockFetch(mockRPC) {
+./addons/web/static/tests/legacy/helpers/mock_env.js:import { makeMockServer } from "./mock_server";
+./addons/web/static/tests/legacy/helpers/mock_env.js:        await makeMockServer(config.serverData, config.mockRPC);
+./addons/web/static/tests/views/view.test.js:    makeMockEnv,
+./addons/web/static/tests/views/view.test.js:    await makeMockEnv({ config: { views: [[1, "toy"]] } });
+./addons/web/static/tests/views/view.test.js:    await makeMockEnv({ config: { views: [[false, "other"]] } });
+./addons/web/static/tests/views/view.test.js:    await makeMockEnv({
+./addons/web/static/tests/views/layout.test.js:    makeMockEnv,
+./addons/web/static/tests/views/layout.test.js:        env: await makeMockEnv({ config: {} }),
+./addons/web/static/tests/views/layout.test.js:        env: await makeMockEnv({
+./addons/web/static/tests/views/fields/parsers.test.js:import { makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/views/fields/parsers.test.js:beforeEach(makeMockEnv);
+./addons/web/static/tests/views/view_service.test.js:    makeMockEnv,
+./addons/web/static/tests/views/view_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/views/view_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/views/view_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/views/view_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/views/graph/graph_view.test.js:    makeMockServer,
+./addons/web/static/tests/views/graph/graph_view.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/views/graph/graph_view.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/views/graph/graph_view.test.js:    const { env } = await makeMockServer();
+./addons/web/static/tests/env.test.js:import { clearRegistry, makeMockEnv, patchTranslations } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/env.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/env.test.js:    await expect(makeMockEnv()).rejects.toThrow("boom");
+./addons/web/static/tests/env.test.js:    await expect(makeMockEnv()).rejects.toThrow("boom");
+./addons/web/static/tests/env.test.js:    const envCreationPromise = makeMockEnv();
+./addons/web/static/tests/env.test.js:    await makeMockEnv();
+./addons/web/static/tests/env.test.js:    await makeMockEnv();
+./addons/web/static/tests/env.test.js:    const envCreationPromise = makeMockEnv();
+./addons/web/static/tests/env.test.js:    const envCreationPromise = makeMockEnv();
+./addons/web/static/tests/env.test.js:    const envCreationPromise = makeMockEnv();
+./addons/web/static/tests/web_test_helpers.js:    makeMockEnv,
+./addons/web/static/tests/web_test_helpers.js:    makeMockServer,
+./addons/web/static/tests/_framework/mock_server/mock_server.js:export async function makeMockServer() {
+./addons/web/static/tests/_framework/search_test_helpers.js:import { getMockEnv, makeMockEnv } from "./env_test_helpers";
+./addons/web/static/tests/_framework/search_test_helpers.js:    const env = await makeMockEnv({ config: fullConfig });
+./addons/web/static/tests/_framework/view_test_helpers.js:import { getMockEnv, getService, makeMockEnv } from "./env_test_helpers";
+./addons/web/static/tests/_framework/view_test_helpers.js:        env: params.env || getMockEnv() || (await makeMockEnv()),
+./addons/web/static/tests/_framework/view_test_helpers.js:        env: params.env || getMockEnv() || (await makeMockEnv({ config })),
+./addons/web/static/tests/_framework/component_test_helpers.js:import { getMockEnv, makeMockEnv } from "./env_test_helpers";
+./addons/web/static/tests/_framework/component_test_helpers.js:        env: env || getMockEnv() || (await makeMockEnv()),
+./addons/web/static/tests/_framework/env_test_helpers.js:import { MockServer, makeMockServer } from "./mock_server/mock_server";
+./addons/web/static/tests/_framework/env_test_helpers.js:export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
+./addons/web/static/tests/_framework/env_test_helpers.js:        await makeMockServer();
+./addons/web/static/tests/_framework/env_test_helpers.js:    return makeMockEnv({
+./addons/web/static/tests/core/utils/hooks.test.js:    makeMockEnv,
+./addons/web/static/tests/core/utils/hooks.test.js:        const { bus } = await makeMockEnv();
+./addons/web/static/tests/core/install_scoped_app.test.js:    makeMockEnv,
+./addons/web/static/tests/core/install_scoped_app.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/install_scoped_app.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/user.test.js:import { makeMockEnv, onRpc, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/user.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/user.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_picker.test.js:import { defineParams, mountWithCleanup, makeMockEnv, serverState } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/components/datetime/datetime_picker.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_picker.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_input.test.js:    makeMockEnv,
+./addons/web/static/tests/core/components/datetime/datetime_input.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_input.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_input.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_input.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/components/datetime/datetime_input.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:import { getService, makeMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/notifications/notifications.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/dropdown/dropdown.test.js:import { makeMockEnv, mockService } from "@web/../tests/_framework/env_test_helpers";
+./addons/web/static/tests/core/dropdown/dropdown.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/core/dropdown/dropdown.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/core/dropdown/dropdown.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/field_service.test.js:    makeMockEnv,
+./addons/web/static/tests/core/field_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/field_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/field_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:import { getService, makeMockEnv, mountWithCleanup, onRpc } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/orm_service.test.js:    const { services } = await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    makeMockEnv,
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    const testEnv = await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/errors/error_service.test.js:        await makeMockEnv();
+./addons/web/static/tests/core/l10n/translation.test.js:    makeMockEnv,
+./addons/web/static/tests/core/l10n/translation.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/translation.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/translation.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/dates.test.js:    makeMockEnv,
+./addons/web/static/tests/core/l10n/dates.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/dates.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/dates.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/dates.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/l10n/dates.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/pwa_service.test.js:import { getService, makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/pwa_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/pwa_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/browser/title_service.test.js:import { getService, makeMockEnv } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/browser/title_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    makeMockEnv,
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/hotkey_sevice.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/tooltip/tooltip_service.test.js:import { makeMockEnv, mockService, mountWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/tooltip/tooltip_service.test.js:    await makeMockEnv({ tooltip_text: "tooltip" });
+./addons/web/static/tests/core/commands/command_service.test.js:    makeMockEnv,
+./addons/web/static/tests/core/commands/command_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/currency.test.js:import { makeMockEnv, serverState } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/currency.test.js:    await makeMockEnv(); // To start the localization service
+./addons/web/static/tests/core/name_service.test.js:    makeMockEnv,
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/name_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/core/overlay_service.test.js:import { getService, makeMockEnv, mountWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/core/overlay_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/navbar.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/navbar.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/navbar.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/webclient/navbar.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/webclient/navbar.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/webclient/navbar.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/navbar.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/reload_company_service.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/reload_company_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/reload_company_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/webclient.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/webclient.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/webclient/barcode/barcode_scanner.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/barcode/barcode_scanner.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/url_action.test.js:import { getService, makeMockEnv, patchWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/web/static/tests/webclient/actions/url_action.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/url_action.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/url_action.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/url_action.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/window_action.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/actions/window_action.test.js:    const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/load_state.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/actions/load_state.test.js:        const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/load_state.test.js:        const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/load_state.test.js:        const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/load_state.test.js:        const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/load_state.test.js:        const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/load_state.test.js:        const env = await makeMockEnv();
+./addons/web/static/tests/webclient/actions/misc.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/actions/misc.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/misc.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/misc.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/misc.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/actions/misc.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/mobile/burger_menu.test.js:    makeMockServer,
+./addons/web/static/tests/webclient/mobile/burger_menu.test.js:    const server = await makeMockServer();
+./addons/web/static/tests/webclient/mobile/burger_menu.test.js:    const server = await makeMockServer();
+./addons/web/static/tests/webclient/currency_service.test.js:    makeMockEnv,
+./addons/web/static/tests/webclient/currency_service.test.js:    await makeMockEnv();
+./addons/web/static/tests/webclient/currency_service.test.js:    await makeMockEnv();
+./addons/web_tour/static/tests/tour_automatic.test.js:    makeMockEnv,
+./addons/web_tour/static/tests/tour_automatic.test.js:    await makeMockEnv({});
+./addons/web_tour/static/tests/tour_automatic.test.js:    await makeMockEnv();
+./addons/web_tour/static/tests/tour_automatic.test.js:    await makeMockEnv();
+./addons/web_tour/static/tests/tour_automatic.test.js:    await makeMockEnv();
+./addons/bus/static/tests/simple_notification.test.js:    makeMockEnv,
+./addons/bus/static/tests/simple_notification.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/multi_tab_service.test.js:    makeMockEnv,
+./addons/bus/static/tests/multi_tab_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/multi_tab_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/multi_tab_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/multi_tab_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/multi_tab_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/multi_tab_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_monitoring_service.test.js:    makeMockEnv,
+./addons/bus/static/tests/bus_monitoring_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_monitoring_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_monitoring_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    makeMockEnv,
+./addons/bus/static/tests/bus_service.test.js:    makeMockServer,
+./addons/bus/static/tests/bus_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const mainEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const firstEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env2 = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const firstTabEnv = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const secondTabEnv = await makeMockEnv(null, { makeNew: true });
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    await makeMockServer();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    await makeMockServer();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/bus/static/tests/bus_service.test.js:    const env = await makeMockEnv();
+./addons/web_unsplash/static/tests/unsplash.test.js:import { contains, makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
+./addons/web_unsplash/static/tests/unsplash.test.js:    const env = await makeMockEnv();
+./addons/web_unsplash/static/tests/unsplash.test.js:    const env = await makeMockEnv();
+./addons/web_unsplash/static/tests/unsplash.test.js:    const env = await makeMockEnv();
+./addons/hoot_training/static/tests/05_server.test.js:    makeMockEnv,
+./addons/hoot_training/static/tests/05_server.test.js:    await makeMockEnv();
+./addons/mail/static/tests/composer/html_composer_message_field.test.js:    makeMockServer,
+./addons/mail/static/tests/composer/html_composer_message_field.test.js:    const { env } = await makeMockServer();
+./addons/mail/static/tests/mail_test_helpers.js:    makeMockEnv,
+./addons/mail/static/tests/mail_test_helpers.js:    makeMockServer,
+./addons/mail/static/tests/mail_test_helpers.js:        env = await makeMockEnv({}, { makeNew: true });
+./addons/mail/static/tests/mail_test_helpers.js:        env = getMockEnv() || (await makeMockEnv({}));
+./addons/mail/static/tests/mail_test_helpers.js:    const { env } = await makeMockServer();
+./addons/html_editor/static/tests/media.test.js:import { makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
+./addons/html_editor/static/tests/media.test.js:    const env = await makeMockEnv();
+./addons/html_editor/static/tests/media.test.js:    const env = await makeMockEnv();
+./addons/html_editor/static/tests/media.test.js:    const env = await makeMockEnv();
+./addons/html_editor/static/tests/media.test.js:    const env = await makeMockEnv();
+./addons/html_editor/static/tests/embedded_components.test.js:import { makeMockEnv } from "@web/../tests/_framework/env_test_helpers";
+./addons/html_editor/static/tests/embedded_components.test.js:        const rootEnv = await makeMockEnv();
+./addons/hr/static/tests/web/m2x_avatar_user.test.js:import { contains, makeMockServer, mountView, onRpc } from "@web/../tests/web_test_helpers";
+./addons/hr/static/tests/web/m2x_avatar_user.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/profile_form_view.test.js:    makeMockServer,
+./addons/hr/static/tests/profile_form_view.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:import { contains, makeMockServer, mountView, onRpc } from "@web/../tests/web_test_helpers";
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/hr/static/tests/m2x_avatar_employee.test.js:    const { env } = await makeMockServer();
+./addons/point_of_sale/static/tests/unit/data_service.test.js:import { defineModels, getService, makeMockEnv, models } from "@web/../tests/web_test_helpers";
+./addons/point_of_sale/static/tests/unit/data_service.test.js:    await makeMockEnv();
+./addons/spreadsheet/static/tests/links/open_links.test.js:import { makeMockEnv, mockService, patchWithCleanup } from "@web/../tests/web_test_helpers";
+./addons/spreadsheet/static/tests/links/open_links.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/global_filters/filter_value_component.test.js:import { contains, makeMockEnv, mountWithCleanup, onRpc } from "@web/../tests/web_test_helpers";
+./addons/spreadsheet/static/tests/global_filters/filter_value_component.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/global_filters/filter_value_component.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/global_filters/filter_value_component.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/global_filters/filter_value_component.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/charts/model/link_chart_plugin.test.js:import { defineMenus, makeMockEnv } from "@web/../tests/web_test_helpers";
+./addons/spreadsheet/static/tests/charts/model/link_chart_plugin.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/charts/model/link_chart_plugin.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/charts/model/link_chart_plugin.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/charts/model/link_chart_plugin.test.js:    const env = await makeMockEnv();
+./addons/spreadsheet/static/tests/helpers/model.js:import { defineActions, defineParams, makeMockEnv, onRpc } from "@web/../tests/web_test_helpers";
+./addons/spreadsheet/static/tests/helpers/model.js:    const env = getMockEnv() || (await makeMockEnv());
+./addons/calendar/static/tests/calendar.test.js:import { contains, makeMockServer, mountView, onRpc } from "@web/../tests/web_test_helpers";
+./addons/calendar/static/tests/calendar.test.js:    const { env: pyEnv } = await makeMockServer();
+./addons/calendar/static/tests/attendee_calendar_views.test.js:    makeMockServer,
+./addons/calendar/static/tests/attendee_calendar_views.test.js:    const { env: pyEnv } = await makeMockServer();
